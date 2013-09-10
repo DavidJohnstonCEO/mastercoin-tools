@@ -24,16 +24,24 @@ with 1EXoDus address and take it as appendix for the spec (best would be
 as part of the github repository of the ascii spec).
 Also future protocol stack implementations could use it.
 
+
 Aim of this package:
+
 1. Live update - direct interaction with the bitcoin network (using sx monitor).
+
 2. Run without a database.
+
 3. Be an alternative code base.
+
 
 Anyone should be able to run at home without the need for a database setup.
 
 Next steps:
+
 1. Parse mastercoin tx for all tx coming from sx-monitor tool listening on 1EXoDus address creating a mastercoin tx log (dropping the syntax invalid tx).
+
 2. Accounting validator - checks that enough funds are available for each tx. Insufficient funds would mean invalid tx.
+
 
 enjoy!
 
